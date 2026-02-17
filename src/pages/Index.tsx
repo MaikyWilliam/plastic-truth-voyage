@@ -30,7 +30,6 @@ const Index = () => {
       <SchoolActions />
       <ConclusionSection />
       <Quiz />
-      <AboutUs />
       <Footer />
       <ScrollToTop />
     </div>
