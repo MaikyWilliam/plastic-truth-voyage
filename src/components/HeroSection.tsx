@@ -18,7 +18,7 @@ const HeroSection = () => {
           transition={{ delay: 0.2 }}
           className="text-ocean-light font-display font-semibold text-sm md:text-base uppercase tracking-[0.3em] mb-6"
         >
-          Feira de Ciências 2025
+          Feira de Ciências 2026
         </motion.p>
 
         <motion.h1
@@ -27,7 +27,7 @@ const HeroSection = () => {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="font-display font-black text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-primary-foreground leading-tight mb-6"
         >
-          PLÁSTICO:
+          PLÁSTICO
           <br />
           <span className="text-ocean-light">OS VILÕES SOMOS NÓS</span>
         </motion.h1>

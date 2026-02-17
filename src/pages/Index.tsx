@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import AboutUs from "@/components/AboutUs";
 import WhatIsPlastic from "@/components/WhatIsPlastic";
 import PlanetImpact from "@/components/PlanetImpact";
 import OceanPlastic from "@/components/OceanPlastic";
@@ -19,6 +20,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <HeroSection />
+      <AboutUs />
       <WhatIsPlastic />
       <PlanetImpact />
       <OceanPlastic />

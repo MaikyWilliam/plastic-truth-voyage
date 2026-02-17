@@ -4,6 +4,7 @@ import { Menu, X, Leaf } from "lucide-react";
 
 const navItems = [
   { label: "Início", href: "#hero" },
+  { label: "Quem Somos", href: "#quem-somos" },
   { label: "O Plástico", href: "#o-que-e" },
   { label: "Impacto", href: "#impacto" },
   { label: "Oceanos", href: "#oceanos" },

@@ -21,7 +21,7 @@ const solutions = [
     icon: Heart,
     title: "Consumo Consciente",
     desc: "Antes de comprar, pergunte-se: eu realmente preciso disso? Há opção sustentável?",
-  },
+  }
 ];
 
 const Solutions = () => {
