@@ -13,6 +13,7 @@ const navItems = [
   { label: "Soluções", href: "#solucoes" },
   { label: "Ações", href: "#acoes" },
   { label: "Quiz", href: "#quiz" },
+  { label: "Quem Somos", href: "#quem-somos" },
 ];
 
 const Navbar = () => {
