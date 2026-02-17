@@ -14,7 +14,7 @@ const Footer = () => {
           <Heart className="w-4 h-4 text-destructive fill-destructive" />
           <span>pelas alunas</span>
         </div>
-        <p>Alice Cardoso, Isabella Lambres e Nicole Cunha</p>
+        <p>Alice Cardoso, Isabella Lambrecht e Nicole Cunha</p>
         <p className="text-primary-foreground/50 text-sm">
           © 2026 — EMEF OTÁVIO ROCHA
         </p>
