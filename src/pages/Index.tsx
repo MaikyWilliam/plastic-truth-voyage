@@ -11,7 +11,6 @@ import Solutions from "@/components/Solutions";
 import SchoolActions from "@/components/SchoolActions";
 import ConclusionSection from "@/components/ConclusionSection";
 import Quiz from "@/components/Quiz";
-import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
