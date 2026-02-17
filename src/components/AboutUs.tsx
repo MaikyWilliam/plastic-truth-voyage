@@ -2,35 +2,35 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Users } from "lucide-react";
 import FadeInSection from "./FadeInSection";
+import aluna1Img from "@/assets/aluna1.jpg";
+import aluna2Img from "@/assets/aluna2.jpg";
+import aluna3Img from "@/assets/aluna3.jpg";
+import aluna4Img from "@/assets/aluna4.jpg";
 
 const alunas = [
   {
     name: "Aluna 1",
     role: "Pesquisa e Redação",
     quote: "Cada canudo recusado é um passo para o futuro.",
-    initials: "A1",
-    color: "from-ocean to-ocean-deep",
+    image: aluna1Img,
   },
   {
     name: "Aluna 2",
     role: "Design e Apresentação",
     quote: "A mudança começa quando abrimos os olhos.",
-    initials: "A2",
-    color: "from-green-bright to-primary",
+    image: aluna2Img,
   },
   {
     name: "Aluna 3",
     role: "Dados e Estatísticas",
     quote: "Os números não mentem: precisamos agir agora.",
-    initials: "A3",
-    color: "from-accent to-ocean",
+    image: aluna3Img,
   },
   {
     name: "Aluna 4",
     role: "Soluções e Propostas",
     quote: "Ser parte da solução é uma escolha diária.",
-    initials: "A4",
-    color: "from-primary to-green-bright",
+    image: aluna4Img,
   },
 ];
 
@@ -105,11 +105,11 @@ const AboutUs = () => {
                 className="w-full flex flex-col items-center text-center gap-5"
               >
                 {/* Avatar */}
-                <div
-                  className={`w-24 h-24 rounded-full bg-gradient-to-br ${aluna.color} flex items-center justify-center text-white font-display font-bold text-2xl shadow-md`}
-                >
-                  {aluna.initials}
-                </div>
+                <img
+                  src={aluna.image}
+                  alt={aluna.name}
+                  className="w-24 h-24 rounded-full object-cover shadow-md border-2 border-accent"
+                />
 
                 <div>
                   <h3 className="font-display font-bold text-xl md:text-2xl text-foreground">
