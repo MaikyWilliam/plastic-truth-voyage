@@ -17,19 +17,19 @@ const slides = [
         id: 1,
         title: "Nossa Equipe",
         subtitle: "Finalistas na MOSTRATEC 2025: 'Residuos nas Escolas'",
-        image: finalistaImg, 
+        image: finalistaImg,
     },
     {
         id: 2,
         title: "Feira de Ciências 2024",
         subtitle: "Apresentação do protótipo.",
-        image: feiraImg, 
+        image: feiraImg,
     },
     {
         id: 3,
         title: "Mostratec 2025",
         subtitle: "Apresentação do projeto.",
-        image: mostratecImg, 
+        image: mostratecImg,
     },
     // {
     //     id: 2,
@@ -49,7 +49,7 @@ const slides = [
     //     subtitle: "Dados e Estatísticas: 'Os números não mentem: precisamos agir agora.'",
     //     image: finalistaImg,
     // },
-    
+
 ];
 
 const AboutUs = () => {
@@ -95,7 +95,7 @@ const AboutUs = () => {
                 <FadeInSection delay={0.4}>
                     {/* Container do Slide: Removido padding interno e definida altura fixa/aspect ratio */}
                     <div className="relative bg-card rounded-2xl shadow-lg overflow-hidden h-[400px] md:h-[500px] group">
-                        
+
                         {/* Botões de Navegação (aparecem mais visíveis no hover) */}
                         <button
                             onClick={() => navigate(-1)}
@@ -154,11 +154,10 @@ const AboutUs = () => {
                                         setDirection(i > current ? 1 : -1);
                                         setCurrent(i);
                                     }}
-                                    className={`h-2 rounded-full transition-all shadow-sm ${
-                                        i === current 
-                                            ? "bg-white w-6" 
+                                    className={`h-2 rounded-full transition-all shadow-sm ${i === current
+                                            ? "bg-white w-6"
                                             : "bg-white/50 w-2 hover:bg-white/80"
-                                    }`}
+                                        }`}
                                     aria-label={`Ir para foto ${i + 1}`}
                                 />
                             ))}
@@ -167,9 +166,12 @@ const AboutUs = () => {
                 </FadeInSection>
 
                 <FadeInSection>
-                    <div className="text-center mt-10">
-                        <p className="text-muted-foreground max-w-xl mx-auto">
-                            Somos alunas do 7º ano da EMEF Otávio Rocha, unidas pela paixão por ciência e pelo desejo de fazer a diferença. Nosso projeto é uma jornada de descoberta, conscientização e ação para enfrentar a crise do plástico. Acreditamos que, juntos, podemos transformar o mundo em um lugar mais sustentável para as futuras gerações.
+                    <div className="text-justify mt-10">
+                        <p className="text-muted-foreground mx-auto">
+                            Nossa história começou com uma amizade que virou parceria científica. Nos conhecemos ainda no início da escola e, juntas, passamos a desenvolver nossos projetos na EMEF Otávio Rocha, em Estância Velha.
+                            Em 2024, participamos pela primeira vez da feira da escola, conquistamos o 1º lugar e seguimos avançando até a Mostratec Júnior, onde alcançamos o 2º lugar com o projeto “Resíduos na Escola”. Em 2025, aprofundamos a pesquisa, conquistamos novamente os primeiros lugares nas feiras locais e voltamos à Mostratec, ficando em 4º lugar.
+                            Em 2026, iniciamos um novo projeto, “Plástico: o vilão somos nós”, mostrando que o problema não é o plástico, mas a forma como o descartamos.
+                            Mais do que prêmios, nossa trajetória é marcada por amizade, dedicação e muito aprendizado.
                         </p>
                     </div>
                 </FadeInSection>

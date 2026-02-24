@@ -13,10 +13,10 @@ const Microplastics = () => {
       <div className="container mx-auto max-w-5xl">
         <FadeInSection>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground text-center mb-4">
-            Micro<span className="text-gradient">plásticos</span>
+            Origem do nome <span className="text-gradient">plástico</span>
           </h2>
-          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12 text-lg">
-            Fragmentos invisíveis de plástico, menores que 5mm, que estão em toda parte — inclusive dentro de nós.
+          <p className="text-muted-foreground text-justify mx-auto mb-12 text-lg">
+            A origem da nomenclatura da palavra Plástico provém da palavra grego “plastikos”, sendo definido como o que pode ser moldado.
           </p>
         </FadeInSection>
 

@@ -30,30 +30,14 @@ const OceanPlastic = () => {
       <div className="container mx-auto max-w-5xl">
         <FadeInSection>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground text-center mb-4">
-            O plástico nos <span className="text-gradient">oceanos</span>
+            A Parkesine e <span className="text-gradient">Baquelite</span>
           </h2>
-          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12 text-lg">
-            Existem 5 enormes "ilhas de lixo" nos oceanos. A maior, no Pacífico, tem o tamanho de três vezes a França.
+          <p className="text-muted-foreground text-justify mx-auto mb-12 text-lg">
+            A Parkesine foi criada em 1855 por Alexander Parkes e é considerada um dos primeiros plásticos semissintéticos. Podia ser moldada com o calor e endurecia ao esfriar. Apesar de inovadora e usada em diferentes aplicações, sua produção era cara e a empresa criada para fabricá-la não teve sucesso.
+            Plástico Baquelite
+            A Baquelite foi inventada em 1907 por Leo Baekeland e foi a primeira resina totalmente sintética. Era um plástico duro, resistente ao calor e a produtos químicos, representando um grande avanço em relação aos materiais anteriores.
           </p>
         </FadeInSection>
-
-        <div className="grid sm:grid-cols-2 gap-6">
-          {animals.map((a, i) => (
-            <FadeInSection key={i} delay={i * 0.1}>
-              <div className="group bg-card rounded-xl p-6 border border-border hover:border-accent transition-all hover:shadow-xl cursor-default">
-                <div className="flex items-center gap-4 mb-3">
-                  <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                    <a.icon className="w-6 h-6 text-accent" />
-                  </div>
-                  <h3 className="font-display font-bold text-xl text-foreground">{a.name}</h3>
-                </div>
-                <p className="text-muted-foreground group-hover:text-foreground transition-colors">
-                  {a.fact}
-                </p>
-              </div>
-            </FadeInSection>
-          ))}
-        </div>
       </div>
     </section>
   );

@@ -19,6 +19,21 @@ const questions = [
     options: ["1 milhão", "8 milhões", "20 milhões"],
     answer: 1,
   },
+  {
+    q: "Você acha que o problema é o plástico ou somos nós, que damos o seu fim inadequado?",
+    options: ["O problema é da composição do plástico", "O problema está em nossas atitudes", "O problema é da empresa que vende o plástico"],
+    answer: 1,
+  },
+  {
+    q: "De que material o plástico é feito?",
+    options: ["Petróleo", "Vidro", "Papel"],
+    answer: 0,
+  },
+  {
+    q: "Quem é responsável pelo excesso de plástico no planeta?",
+    options: ["O governo", "As indústrias", "Cada pessoa"],
+    answer: 2,
+  },
 ];
 
 const Quiz = () => {
@@ -126,7 +141,7 @@ const Quiz = () => {
               <p className="text-xl mb-6">
                 {score === questions.length
                   ? "Parabéns! Você é um expert! 🌍"
-                  : score >= 2
+                  : score >= 3
                   ? "Quase lá! Continue aprendendo! 🌱"
                   : "Que tal reler o conteúdo? 📚"}
               </p>

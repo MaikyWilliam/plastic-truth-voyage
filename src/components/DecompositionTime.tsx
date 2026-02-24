@@ -25,8 +25,8 @@ const DecompositionTime = () => {
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground text-center mb-4">
             Tempo de <span className="text-gradient">decomposição</span>
           </h2>
-          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12 text-lg">
-            Clique em cada item para revelar quanto tempo leva para se decompor na natureza.
+          <p className="text-muted-foreground text-justify mx-auto mb-12 text-lg">
+             O tempo de decomposição varia conforme o tipo. Sacolas podem levar de 10 a 20 anos, copos 50 anos, canudos cerca de 200 anos e garrafas PET de 400 a 600 anos. Esses dados mostram como o descarte incorreto pode causar impactos duradouros no meio ambiente.
           </p>
         </FadeInSection>
 

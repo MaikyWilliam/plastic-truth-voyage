@@ -4,7 +4,7 @@ import FadeInSection from "./FadeInSection";
 import { TrendingUp, Trash2, Globe } from "lucide-react";
 
 const stats = [
-  { icon: TrendingUp, value: 400, suffix: "M ton", label: "de plástico produzidas por ano" },
+  { icon: TrendingUp, value: 430, suffix: "M ton", label: "de plástico produzidas por ano" },
   { icon: Trash2, value: 8, suffix: "M ton", label: "de plástico vão para os oceanos anualmente" },
   { icon: Globe, value: 91, suffix: "%", label: "do plástico NÃO é reciclado" },
 ];
@@ -47,7 +47,7 @@ const PlanetImpact = () => {
           <h2 className="font-display font-bold text-3xl md:text-5xl text-center mb-4">
             Como o plástico impacta o <span className="text-ocean-light">planeta</span>
           </h2>
-          <p className="text-center text-accent-foreground/80 max-w-2xl mx-auto mb-16 text-lg">
+          <p className="text-center text-accent-foreground/80 mx-auto mb-16 text-lg">
             Os números são alarmantes e mostram a urgência de mudarmos nossos hábitos.
           </p>
         </FadeInSection>
