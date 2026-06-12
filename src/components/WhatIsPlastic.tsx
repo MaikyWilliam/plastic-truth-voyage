@@ -6,7 +6,7 @@ const timeline = [
   { year: "1907", text: "Baquelite, o primeiro plástico totalmente sintético, é inventado por Leo Baekeland." },
   { year: "1950s", text: "A produção em massa de plástico começa. A era do descartável nasce." },
   { year: "1970s", text: "Primeiros alertas sobre poluição plástica nos oceanos surgem." },
-  { year: "2000s", text: "Microplásticos são descobertos em praticamente toda a cadeia alimentar." },
+  // { year: "2000s", text: "Microplásticos são descobertos em praticamente toda a cadeia alimentar." },
   { year: "2024", text: "Mais de 400 milhões de toneladas de plástico são produzidas anualmente." },
 ];
 

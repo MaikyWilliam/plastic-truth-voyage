@@ -85,6 +85,6 @@
     background: linear-gradient(180deg, hsla(205, 80%, 15%, 0.7) 0%, hsla(160, 45%, 15%, 0.8) 100%);
   }
   .section-padding {
-    @apply px-4 py-16 md:px-8 md:py-24 lg:px-16;
+    @apply px-4 py-12 md:px-8 md:py-16 lg:px-16;
   }
 }

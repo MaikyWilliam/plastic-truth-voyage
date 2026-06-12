@@ -16,8 +16,8 @@ const VillainsAreUs = () => {
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground text-center mb-4">
             Os vilões <span className="text-gradient">somos nós</span>
           </h2>
-          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12 text-lg">
-            Pequenos hábitos do dia a dia geram um impacto gigante. Veja como nosso consumo pode mudar.
+          <p className="text-muted-foreground text-justify  mx-auto mb-12 text-lg">
+        A visão da maioria das pessoas, é que o plástico sozinho é o problema, mas o real vilão são as ações humana. Ele só polui quando é descartado de forma errada, jogado em rios, oceanos, aterros sanitários, ou quando não é reciclado. Pequenos atos, como reduzir, reutilizar e reciclar o uso de descartáveis, podem fazer uma grande diferença. O plástico, quando é usado de forma consciente, é leve, resistente e muito útil no dia a dia. O segredo são as nossas escolhas e hábitos, no dia a dia.
           </p>
         </FadeInSection>
 

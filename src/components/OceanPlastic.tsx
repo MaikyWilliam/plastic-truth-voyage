@@ -1,28 +1,4 @@
 import FadeInSection from "./FadeInSection";
-import { Fish, Shell, Waves, AlertTriangle } from "lucide-react";
-
-const animals = [
-  {
-    icon: Fish,
-    name: "Peixes",
-    fact: "Mais de 1 milhão de animais marinhos morrem por ano devido ao plástico nos oceanos.",
-  },
-  {
-    icon: Shell,
-    name: "Tartarugas",
-    fact: "Confundem sacolas plásticas com águas-vivas, seu principal alimento.",
-  },
-  {
-    icon: Waves,
-    name: "Baleias",
-    fact: "Já foram encontradas baleias com mais de 40kg de plástico no estômago.",
-  },
-  {
-    icon: AlertTriangle,
-    name: "Aves Marinhas",
-    fact: "90% das aves marinhas já ingeriram plástico pelo menos uma vez.",
-  },
-];
 
 const OceanPlastic = () => {
   return (

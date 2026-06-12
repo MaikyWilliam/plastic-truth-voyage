@@ -8,7 +8,7 @@ const navItems = [
   { label: "O Plástico", href: "#o-que-e" },
   { label: "Impacto", href: "#impacto" },
   { label: "Oceanos", href: "#oceanos" },
-  { label: "Microplásticos", href: "#microplasticos" },
+  // { label: "Microplásticos", href: "#microplasticos" },
   { label: "Vilões", href: "#viloes" },
   { label: "Decomposição", href: "#decomposicao" },
   { label: "Soluções", href: "#solucoes" },

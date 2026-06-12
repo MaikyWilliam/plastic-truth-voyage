@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-primary text-primary-foreground py-12 px-4">
       <div className="container mx-auto max-w-4xl text-center">
         <Leaf className="w-8 h-8 mx-auto mb-4 text-ocean-light" />
-        <p className="font-display font-bold text-lg mb-2">Plástico Os Vilões Somos Nós</p>
+        <p className="font-display font-bold text-lg mb-2">A Perspectiva do plástico</p>
         <p className="text-primary-foreground/70 mb-4">
           Trabalho apresentado na Feira de Ciências 2026
         </p>

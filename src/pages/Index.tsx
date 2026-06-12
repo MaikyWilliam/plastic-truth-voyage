@@ -4,7 +4,8 @@ import AboutUs from "@/components/AboutUs";
 import WhatIsPlastic from "@/components/WhatIsPlastic";
 import PlanetImpact from "@/components/PlanetImpact";
 import OceanPlastic from "@/components/OceanPlastic";
-import Microplastics from "@/components/Microplastics";
+import OriginPlastic from "@/components/OriginPlastic";
+// import Microplastics from "@/components/Microplastics";
 import VillainsAreUs from "@/components/VillainsAreUs";
 import DecompositionTime from "@/components/DecompositionTime";
 import Solutions from "@/components/Solutions";
@@ -23,7 +24,8 @@ const Index = () => {
       <WhatIsPlastic />
       <PlanetImpact />
       <OceanPlastic />
-      <Microplastics />
+      <OriginPlastic />
+      {/* <Microplastics /> */}
       <VillainsAreUs />
       <DecompositionTime />
       <Solutions />

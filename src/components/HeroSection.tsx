@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-ocean.jpg";
+import heroImage from "@/assets/pet-ocean.jpeg";
 
 const HeroSection = () => {
   return (
@@ -27,9 +27,9 @@ const HeroSection = () => {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="font-display font-black text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-primary-foreground leading-tight mb-6"
         >
-          PLÁSTICO
+          PERSPECTIVA DO
           <br />
-          <span className="text-ocean-light">OS VILÕES SOMOS NÓS</span>
+          <span className="text-ocean-light">PLÁSTICO</span>
         </motion.h1>
 
         <motion.p
