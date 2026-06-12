@@ -32,15 +32,6 @@ const HeroSection = () => {
           <span className="text-ocean-light">PLÁSTICO</span>
         </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7 }}
-          className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-body"
-        >
-          O problema não é o plástico. <strong>Somos nós.</strong>
-        </motion.p>
-
         <motion.a
           href="#o-que-e"
           initial={{ opacity: 0, scale: 0.9 }}

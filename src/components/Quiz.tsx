@@ -20,11 +20,6 @@ const questions = [
     answer: 1,
   },
   {
-    q: "Você acha que o problema é o plástico ou somos nós, que damos o seu fim inadequado?",
-    options: ["O problema é da composição do plástico", "O problema está em nossas atitudes", "O problema é da empresa que vende o plástico"],
-    answer: 1,
-  },
-  {
     q: "De que material o plástico é feito?",
     options: ["Petróleo", "Vidro", "Papel"],
     answer: 0,
