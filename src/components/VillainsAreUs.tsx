@@ -17,7 +17,7 @@ const VillainsAreUs = () => {
             Quem é <span className="text-gradient">o vilão</span>
           </h2>
           <p className="text-muted-foreground text-justify  mx-auto mb-12 text-lg">
-        A visão da maioria das pessoas, é que o plástico sozinho é o problema, mas o real vilão são as ações humana. Ele só polui quando é descartado de forma errada, jogado em rios, oceanos, aterros sanitários, ou quando não é reciclado. Pequenos atos, como reduzir, reutilizar e reciclar o uso de descartáveis, podem fazer uma grande diferença. O plástico, quando é usado de forma consciente, é leve, resistente e muito útil no dia a dia. O segredo são as nossas escolhas e hábitos, no dia a dia.
+          Muitas pessoas acreditam que o plástico não é o verdadeiro problema, mas a realidade é que ele é um dos grandes vilões da poluição ambiental. No entanto, as ações humanas têm um papel fundamental nesses impactos. O descarte inadequado, o consumo excessivo e a falta de reciclagem fazem com que o plástico se acumule em rios, oceanos, aterros e na natureza. Pequenas atitudes, como reduzir, reutilizar materiais e reciclar corretamente, podem diminuir significativamente essa poluição. Assim, embora o plástico seja um grande vilão, são as nossas escolhas e hábitos que determinam a dimensão do problema.
           </p>
         </FadeInSection>
 

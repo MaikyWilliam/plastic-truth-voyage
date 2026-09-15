@@ -6,30 +6,66 @@ import FadeInSection from "./FadeInSection";
 // import aluna1Img from "@/assets/aluna1.jpg";
 // import aluna2Img from "@/assets/aluna2.jpg";
 // import aluna3Img from "@/assets/aluna3.jpg";
-import finalistaImg from "@/assets/Finalistas.jpeg";
-import feiraImg from "@/assets/Feira.jpeg";
+// import finalistaImg from "@/assets/Finalistas.jpeg";
+import fecorImg from "@/assets/fecor-2024.jpeg";
+import fecitecImg from "@/assets/fecitec-2024.jpeg";
 import mostratecImg from "@/assets/Mostratec.jpeg";
+import fecor25Img from "@/assets/fecor-2025.jpeg";
+import fecitec25Img from "@/assets/fecitec-2025.jpeg";
+import mostratec25Img from "@/assets/Mostratec-2025.jpeg";
+import fecor26Img from "@/assets/fecor-2026.jpeg";
+import fecitec26Img from "@/assets/fecitec-2026.jpeg";
 
 // Agora chamamos de 'slides' para ficar genérico. 
 // Você pode adicionar quantas fotos quiser aqui.
 const slides = [
     {
         id: 1,
-        title: "Nossa Equipe",
-        subtitle: "Finalistas na MOSTRATEC 2025: 'Residuos nas Escolas'",
-        image: finalistaImg,
+        title: "Feira de Ciências da escola 2024",
+        subtitle: "Apresentação do projeto.",
+        image: fecorImg,
     },
-    {
+        {
         id: 2,
-        title: "Feira de Ciências 2024",
-        subtitle: "Apresentação do protótipo.",
-        image: feiraImg,
+        title: "Feira de Ciências do municipio 2024",
+        subtitle: "Apresentação do projeto.",
+        image: fecitecImg,
     },
     {
         id: 3,
-        title: "Mostratec 2025",
+        title: "Mostratec 2024",
         subtitle: "Apresentação do projeto.",
         image: mostratecImg,
+    },
+    {
+        id: 4,
+        title: "Feira de Ciências da escola 2025",
+        subtitle: "Apresentação do projeto.",
+        image: fecor25Img,
+    },
+        {
+        id: 5,
+        title: "Feira de Ciências do municipio 2025",
+        subtitle: "Apresentação do projeto.",
+        image: fecitec25Img,
+    },
+    {
+        id: 6,
+        title: "Mostratec 2025",
+        subtitle: "Apresentação do projeto.",
+        image: mostratec25Img,
+    },
+       {
+        id: 7,
+        title: "Feira de Ciências da escola 2026",
+        subtitle: "Apresentação do projeto.",
+        image: fecor26Img,
+    },
+        {
+        id: 8,
+        title: "Feira de Ciências do municipio 2026",
+        subtitle: "Apresentação do projeto.",
+        image: fecitec26Img,
     },
     // {
     //     id: 2,
@@ -168,10 +204,7 @@ const AboutUs = () => {
                 <FadeInSection>
                     <div className="text-justify mt-10">
                         <p className="text-muted-foreground mx-auto">
-                            Nossa história começou com uma amizade que virou parceria científica. Nos conhecemos ainda no início da escola e, juntas, passamos a desenvolver nossos projetos na EMEF Otávio Rocha, em Estância Velha.
-                            Em 2024, participamos pela primeira vez da feira da escola, conquistamos o 1º lugar e seguimos avançando até a Mostratec Júnior, onde alcançamos o 2º lugar com o projeto “Resíduos na Escola”. Em 2025, aprofundamos a pesquisa, conquistamos novamente os primeiros lugares nas feiras locais e voltamos à Mostratec, ficando em 4º lugar.
-                            Em 2026, iniciamos um novo projeto, “Plástico: o vilão somos nós”, mostrando que o problema não é o plástico, mas a forma como o descartamos.
-                            Mais do que prêmios, nossa trajetória é marcada por amizade, dedicação e muito aprendizado.
+                            Nossa história começou com uma amizade que virou parceria científica. Nos conhecemos no 5º e, juntas, passamos a desenvolver nossos projetos na EMEF Otávio Rocha, em Estância Velha. Em 2024, participamos pela primeira vez da feira da escola, conquistamos o 1º lugar e seguimos avançando até a Mostratec Júnior, onde alcançamos o 2º lugar com o projeto “Resíduos na Escola”, primeira vez que Estância Velha tem esse resultado. Em 2025, aprofundamos a pesquisa, conquistamos novamente os primeiros lugares nas feiras locais e voltamos à Mostratec, ficando em 4º lugar. Em 2026, iniciamos um novo projeto, “Perspectiva do Plástico”, mostrando  às pessoas que para o plástico ser, ou não ser o vilão da poluição, depende principalmente da nossa responsabilidade, quanto ao seu descarte. Mais do que prêmios, nossa trajetória é marcada por amizade, dedicação e muito aprendizado.
                         </p>
                     </div>
                 </FadeInSection>

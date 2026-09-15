@@ -7,7 +7,7 @@ const Footer = () => {
         <Leaf className="w-8 h-8 mx-auto mb-4 text-ocean-light" />
         <p className="font-display font-bold text-lg mb-2">A Perspectiva do plástico</p>
         <p className="text-primary-foreground/70 mb-4">
-          Trabalho apresentado na Feira de Ciências 2026
+          Trabalho apresentado na MOSTRATEC 2026
         </p>
         <div className="flex items-center justify-center gap-1 text-primary-foreground/60 text-sm mb-4">
           <span>Feito com</span>

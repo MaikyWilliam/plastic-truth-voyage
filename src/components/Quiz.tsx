@@ -25,10 +25,10 @@ const questions = [
     answer: 0,
   },
   {
-    q: "Quem é responsável pelo excesso de plástico no planeta?",
-    options: ["O governo", "As indústrias", "Cada pessoa"],
+    q: "O que acontece com muitos plásticos quando são descartados na natureza?",
+    options: ["Desaparecem rapidamente", "Podem permanecer no ambiente por muito tempo", "Viram adubo"],
     answer: 2,
-  },
+  }
 ];
 
 const Quiz = () => {
