@@ -27,7 +27,7 @@ const questions = [
   {
     q: "O que acontece com muitos plásticos quando são descartados na natureza?",
     options: ["Desaparecem rapidamente", "Podem permanecer no ambiente por muito tempo", "Viram adubo"],
-    answer: 2,
+    answer: 1,
   }
 ];
 
